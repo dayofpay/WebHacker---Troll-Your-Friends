@@ -7,9 +7,9 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Functions.AttackWeb();
-            Console.ReadKey();
             Console.WriteLine("Press Key To Exit...");
-            Functions.WAF();
+            Console.ReadKey();
+            Functions.WAF(); // SOON //
         }
     }
 }
